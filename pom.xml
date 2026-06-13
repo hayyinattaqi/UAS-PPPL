@@ -76,7 +76,7 @@
             <plugin>
                 <groupId>net.masterthought</groupId>
                 <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.8.4</version>
+                <version>5.7.7</version>
                 <executions>
                     <execution>
                         <id>generate-cucumber-html-report</id>
@@ -85,7 +85,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>BPAL PJK IPAL - Upload Jaringan</projectName>
+                            <projectName>BPAL PJK IPAL - Manajemen Aduan</projectName>
                             <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory>
                             <inputDirectory>${project.build.directory}/cucumber-reports</inputDirectory>
                             <jsonFiles>
