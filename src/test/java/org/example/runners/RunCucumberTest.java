@@ -18,5 +18,6 @@ import static io.cucumber.junit.platform.engine.Constants.FILTER_TAGS_PROPERTY_N
                 + "html:target/cucumber-reports/cucumber.html,"
                 + "json:target/cucumber-reports/cucumber.json")
 //@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@login")
+//@ConfigurationParameter(key = FILTER_TAGS_PROPERTY_NAME, value = "@map")
 public class RunCucumberTest {
 }
